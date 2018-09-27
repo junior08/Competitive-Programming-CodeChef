@@ -1,4 +1,4 @@
-# Competitive-Coding
+# Competitive-Coding :sunglasses:
 
 
 Solutions to problems from CodeChef(https://www.codechef.com/)
