@@ -1,5 +1,5 @@
 
-for i in range(int(input())):
+for i in range(int(input())):#run for test cases 
     n,k,b = [int(x) for x in input().split()]
     l = [int(x) for x in input().split()]
     l.sort()
