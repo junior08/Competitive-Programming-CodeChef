@@ -1,4 +1,4 @@
-for i in range(int(input())):
+for i in range(int(input())):# Accept input 
     a, b, c = [int(x) for x in input().split()]
     if (a + c) % 2 == 1:
         ans1 = abs(b - ((a + c -1) // 2))
