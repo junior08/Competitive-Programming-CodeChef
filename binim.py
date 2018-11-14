@@ -1,5 +1,5 @@
-for i in range(int(input())):
-    n, p = input().split()
+for i in range(int(input())):#For the given number of test cases do the following:
+    n, p = input().split()# Accept n and p
     n = int(n)
     l = []
     dee, dum = 0, 0
