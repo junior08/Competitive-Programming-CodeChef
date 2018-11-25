@@ -1,10 +1,10 @@
-def gcd(a, b):
+def gcd(a, b):#euclidean gcd
     if a == 0:
         return b
     else:
         return(gcd(b % a, a))
 
-def lcm(a, b):
+def lcm(a, b):#lcm x gcd = a x b
     return((a * b)/gcd(a, b))
 
 for i in range(int(input())):
