@@ -1,4 +1,4 @@
-for i in range(int(input())):
+for i in range(int(input())):# test cases
     s = input()
     sm = 0
     for i in s:
