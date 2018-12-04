@@ -1,5 +1,5 @@
 mod = 10 ** 9 + 7
-for i in range(int(input())):
+for i in range(int(input())):#for number of test cases
     a, b , c = [int(x) for x in input().split()]
     first = min(a, b, c)
     last = max(a, b, c)
