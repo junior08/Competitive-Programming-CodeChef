@@ -1,4 +1,4 @@
-for k in range(int(input())):
+for k in range(int(input())): # for number of test cases
     n=int(input())
     over=2**32
     ele=(over-1)//n
