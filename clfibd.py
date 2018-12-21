@@ -1,7 +1,7 @@
-for i in range(int(input())):
+for i in range(int(input())):#for the number of test cases 
     s = input().strip()
     if len(set(s)) < 3:
-        print("Dynamic")
+        print("Dynamic")#printing output
         continue
 
     l = []
@@ -14,7 +14,7 @@ for i in range(int(input())):
         if i:
             l.append(i)
             
-    l.sort()
+    l.sort()#Sorting the list
     #print(l)
     n = len(l)
 
