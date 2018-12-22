@@ -1,5 +1,5 @@
-for i in range(int(input())):
-    n=int(input())
+for i in range(int(input())):#for test casss
+    n=int(input())#accepting input
     size=[int(x) for x in input().split()]
     s=set(size)
     s=list(s)
