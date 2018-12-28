@@ -1,6 +1,6 @@
-for i in range(int(input())):
+for i in range(int(input())):#for the given test cases
     n, a, b = [int(values) for values in input().split()]
-    nums_on_dice = [int(face) for face in input().split()]
+    nums_on_dice = [int(face) for face in input().split()]#accepting input
     count_a, count_b = 0, 0
     
     for i in nums_on_dice:
