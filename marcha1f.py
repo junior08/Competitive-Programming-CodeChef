@@ -1,5 +1,5 @@
-from itertools import combinations as cb
-for loops in range(int(input())):
+from itertools import combinations as cb#importing the necessary libraries 
+for loops in range(int(input())):#for number of test cases
     denom=[]
     found=0
     n,m=[int(x) for x in input().split()]
