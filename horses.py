@@ -1,8 +1,8 @@
-for i in range(int(input())):
-    n = int(input())
+for i in range(int(input())):#for number of test cases
+    n = int(input())#accept input
     s = [int(x) for x in input().split()]
     s.sort()
-    mn = max(s)
+    mn = s[-1]
     
     for i in range(n - 1):
         diff = s[i + 1] - s[i]
