@@ -5,4 +5,4 @@ a = [int(c) for c in input().split()]
 ans = 1
 for i in a:
     ans = ((ans % mod) * (i % mod)) % mod
-print(ans % mod)#printing answer
+print(ans % mod)#printing answer 
