@@ -1,4 +1,4 @@
-for k in range(int(input())):
+for k in range(int(input())):#for given number of test cases 
     n = int(input())
     a = [int(x) for x in input().split()]
     dp = [1 for _ in range(n)]
@@ -7,6 +7,6 @@ for k in range(int(input())):
     for i in range(n - 2, -1, -1):
         if a[i] * a[i + 1] < 0:
             dp[i] = dp[i + 1] + 1
-    print(*dp)
+    print(*dp)#printing the required output
         
 	
