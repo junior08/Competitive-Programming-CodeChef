@@ -1,5 +1,5 @@
 prime = []
-def Sieve(n):
+def Sieve(n):#sieve of eratosthenes 
     global prime
     prime = [True for i in range(n+1)]
     p = 2
@@ -11,10 +11,10 @@ def Sieve(n):
     prime[0], prime[1] = False, False
     
 Sieve(1000000)
-for i in range(int(input())):
+for i in range(int(input())):#for number of test cases
     l, r = [int(x) for x in input().split()]
     ans = 0
     for i in range(l, r + 1):
         if prime[i]:
             ans += 1
-    print(ans)
+    print(ans)#printing answer
