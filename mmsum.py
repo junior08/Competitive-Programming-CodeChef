@@ -1,6 +1,6 @@
-for i in range(int(input())):
+for i in range(int(input())):#for given number of test cases 
     n = int(input())
-    a = [int(x) for x in input().split()]
+    a = [int(x) for x in input().split()]#accepting input
     max_all = 0
     max_skip = 0
     flag = 0
@@ -14,4 +14,4 @@ for i in range(int(input())):
     if flag == 1:
         print(ans)
     else:
-        print(max(a))
+        print(max(a))#printing answer
