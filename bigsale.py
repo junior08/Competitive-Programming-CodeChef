@@ -1,4 +1,4 @@
-for i in range(int(input())):
+for i in range(int(input())):#for each input
     n = int(input())
     ans = 0
     for i in range(n):
@@ -9,4 +9,4 @@ for i in range(int(input())):
         final = prc - (prc*x)/100
         final = (org-final)*qty
         ans +=final
-    print(ans)
+    print(ans)#print answer
