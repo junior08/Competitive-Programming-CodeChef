@@ -6,5 +6,5 @@ while c==True:
         c=False
     elif n<=99:
         l.append(n)#for the given condition 
-for i in l:
+for i in l:#for each element in list
     print(i)#print answer 
